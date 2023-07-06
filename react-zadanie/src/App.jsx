@@ -1,4 +1,3 @@
-import { useState } from "react";
 import "./App.css";
 import employeesData from "./date/sluzba.json";
 import EmployeeTable from "./components/EmployeeTable/EmployeeTable";
@@ -6,7 +5,7 @@ import EmployeeTable from "./components/EmployeeTable/EmployeeTable";
 function App() {
   return (
     <>
-      <EmployeeTable employess={employeesData} />
+      <EmployeeTable employees={employeesData} />
     </>
   );
 }
